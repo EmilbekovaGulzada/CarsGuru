@@ -1,7 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d57dc5-0827-4f7c-9778-6822853261c2" name="Default Changelist" comment="" />
+    <list default="true" id="91d57dc5-0827-4f7c-9778-6822853261c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libfreetype-3e240bcb.so.6.16.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libjpeg-3fe7dfc0.so.9.3.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/liblcms2-a6801db4.so.2.0.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/liblzma-6cd627ed.so.5.2.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libopenjp2-e366d6b0.so.2.1.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libpng16-9e58a7b0.so.16.36.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libtiff-8267adfe.so.5.4.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libwebp-baad113c.so.7.0.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libwebpdemux-60cc0b6d.so.2.0.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libwebpmux-75695800.so.3.0.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/.libs/libz-a147dcb0.so.1.2.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/BdfFontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/BlpImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/BmpImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/BufrStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ContainerIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/CurImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/DcxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/DdsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/EpsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ExifTags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/FitsStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/FliImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/FontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/FpxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/FtexImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/GbrImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/GdImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/GifImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/GimpGradientFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/GimpPaletteFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/GribStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/Hdf5StubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/IcnsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/IcoImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/Image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageChops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageCms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageDraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageDraw2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageEnhance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageFont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageGrab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageMath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageMode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageMorph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageOps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImagePalette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImagePath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageQt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageShow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageStat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageTk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageTransform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImageWin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/ImtImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/IptcImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/Jpeg2KImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/JpegImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/JpegPresets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/McIdasImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/MicImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/MpegImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/MpoImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/MspImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PSDraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PaletteFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PalmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PcdImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PcfFontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PcxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PdfImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PdfParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PixarImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PngImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PpmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PsdImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/PyAccess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/SgiImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/SpiderImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/SunImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/TarIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/TgaImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/TiffImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/TiffTags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/WalImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/WebPImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/WmfImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/XVThumbImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/XbmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/XpmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_imaging.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_imagingcms.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_imagingft.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_imagingmath.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_imagingmorph.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_imagingtk.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_tkinter_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/_webp.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/PIL/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-6.0.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-6.0.0.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-6.0.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-6.0.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-6.0.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-6.0.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-6.0.0.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/_enchant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/checker/CmdLineChecker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/checker/GtkSpellCheckerDialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/checker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/checker/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/checker/wxSpellCheckerDialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/pypwl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/tokenize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/tokenize/en.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/tokenize/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/enchant/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pyenchant-2.0.0.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pyenchant-2.0.0.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pyenchant-2.0.0.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pyenchant-2.0.0.egg-info/eager_resources.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pyenchant-2.0.0.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pyenchant-2.0.0.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/six-1.12.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/six-1.12.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/six-1.12.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/six-1.12.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/six-1.12.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/six-1.12.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit-0.2a1.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit-0.2a1.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit-0.2a1.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit-0.2a1.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit-0.2a1.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit-0.2a1.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/backports/functools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/downgrade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/iconv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/spell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/generate_table_h.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x0a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x0b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x0c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x0d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x0e.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x0f.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x1a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x1f.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/0x3a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/tables/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/unidecode/unidecode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/translit/upgrade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate-1.10.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate-1.10.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate-1.10.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate-1.10.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate-1.10.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/apps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/apps/translipsum/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/apps/translipsum/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/bg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/bg/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/bg/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/bg/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/el/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/el/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/el/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/el/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/he/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/he/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/hi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/hi/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/hy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/hy/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/hy/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/hy/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ka/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ka/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ka/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ka/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/l1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/l1/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/l1/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/l1/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mk/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mk/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mk/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mn/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mn/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/mn/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/data/ala-lc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/data/gost_16876_71.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/data/gost_52535_1_2006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/data/gost_7_79.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/data/iso9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/ru/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/sr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/sr/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/sr/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/sr/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/uk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/uk/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/uk/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/contrib/languages/uk/translit_language_pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/discover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/tests/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/tests/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/tests/data/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/tests/defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/tests/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/tests/test_transliterate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/transliterate/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gigant/migrations/0006_auto_20190510_0802.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gigant/migrations/0007_auto_20190510_0819.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gigant/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.jpeg/.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.jpg/.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.jpg/.jpg_TFrJWWu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.jpg/.jpg_dFm9yS7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.jpg/.jpg_ks6rRIt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/.jpg/.jpg_uKJwKs9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/alfa-romeo-stelvio-quadrifoglio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/bmw2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/foto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/foto609.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/foto711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/foto809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/foto811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/foto817.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/hummer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/range.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/touareg-01-render.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/vw-polo-suv-render.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/грузовые.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigant/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigant/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigant/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigant/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gigant/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigant/templates/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/gigant/templates/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigant/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/gigant/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigant/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigant/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigant/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product images/bmw-x-series-x2-modelfinder-stage2-890x501.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product images/cq5dam.resized.img.585.low.time1522748559110.png" beforeDir="false" afterPath="$PROJECT_DIR$/product_images/car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product images/foto for resume.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,54 +313,59 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CarsGuru$Test__gigant_templates.coverage" NAME="Test: gigant.templates Coverage Results" MODIFIED="1553367857540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="468774365">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="31" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="3" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.11" value="7" />
+          <entry key="project.open.time.12" value="9" />
+          <entry key="project.open.time.13" value="8" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="3" />
-          <entry key="jpg" value="1" />
+          <entry key="css" value="3" />
+          <entry key="html" value="19" />
+          <entry key="jpeg" value="2" />
+          <entry key="jpg" value="14" />
           <entry key="js" value="1" />
-          <entry key="png" value="3" />
-          <entry key="py" value="10" />
+          <entry key="png" value="14" />
+          <entry key="py" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="3" />
-          <entry key="Image" value="4" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="19" />
+          <entry key="Image" value="30" />
           <entry key="JavaScript" value="1" />
-          <entry key="Python" value="10" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2903" />
-          <entry key="py" value="2925" />
+          <entry key="html" value="8501" />
+          <entry key="py" value="4298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2903" />
-          <entry key="Python" value="2924" />
+          <entry key="HTML" value="8501" />
+          <entry key="Python" value="4297" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -66,72 +373,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gigant/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="120">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1554746207242" expanded="true" signature="949:1071" ph="..." />
+                <marker date="1557569755422" expanded="true" signature="1868:1869" ph="..." />
+                <marker date="1557569755422" expanded="true" signature="1868:1877" ph="..." />
+                <marker date="1557569755422" expanded="true" signature="2205:2206" ph="..." />
+                <marker date="1557569755422" expanded="true" signature="2205:2214" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gigant/url.py">
+        <entry file="file://$PROJECT_DIR$/gigant/templates/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gigant/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1554746207206" expanded="true" signature="386:391" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gigant/templates/category.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gigant/templates/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static_in_dev/js/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gigant/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -139,8 +401,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gigant/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -154,8 +416,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/gigant/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gigant/url.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <folding>
+                <element signature="e#631#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gigant/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -169,19 +471,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/env</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/settings.py" />
-        <option value="$PROJECT_DIR$/gigant/admin.py" />
-        <option value="$PROJECT_DIR$/config/urls.py" />
-        <option value="$PROJECT_DIR$/gigant/templates/base.html" />
-        <option value="$PROJECT_DIR$/gigant/models.py" />
-        <option value="$PROJECT_DIR$/gigant/templates/product.html" />
-        <option value="$PROJECT_DIR$/gigant/views.py" />
         <option value="$PROJECT_DIR$/gigant/templates/category.css" />
+        <option value="$PROJECT_DIR$/config/urls.py" />
         <option value="$PROJECT_DIR$/gigant/templates/category.html" />
+        <option value="$PROJECT_DIR$/gigant/templates/product.html" />
+        <option value="$PROJECT_DIR$/gigant/templates/cart.html" />
+        <option value="$PROJECT_DIR$/gigant/models.py" />
+        <option value="$PROJECT_DIR$/gigant/admin.py" />
+        <option value="$PROJECT_DIR$/gigant/views.py" />
         <option value="$PROJECT_DIR$/gigant/url.py" />
+        <option value="$PROJECT_DIR$/gigant/templates/base.html" />
       </list>
     </option>
   </component>
@@ -191,12 +502,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="146" />
-    <option name="y" value="6" />
-    <option name="width" value="1452" />
-    <option name="height" value="880" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="793" />
+    <option name="y" value="-4" />
+    <option name="width" value="803" />
+    <option name="height" value="872" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -224,7 +536,18 @@
               <item name="CarsGuru" type="b2602c69:ProjectViewProjectNode" />
               <item name="CarsGuru" type="462c0819:PsiDirectoryNode" />
               <item name="gigant" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarsGuru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarsGuru" type="462c0819:PsiDirectoryNode" />
+              <item name="gigant" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarsGuru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarsGuru" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +581,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: gigant.templates">
+  <component name="RunManager" selected="JavaScript Debug.base.html">
     <configuration name="Test: gigant.templates" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <module name="CarsGuru" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,6 +600,9 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="base.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CarsGuru/gigant/templates/base.html">
       <method v="2" />
     </configuration>
     <configuration name="CarsGuru" type="Python.DjangoServer" factoryName="Django server">
@@ -305,9 +631,11 @@
     <list>
       <item itemvalue="Django server.CarsGuru" />
       <item itemvalue="Django tests.Test: gigant.templates" />
+      <item itemvalue="JavaScript Debug.base.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.base.html" />
         <item itemvalue="Django tests.Test: gigant.templates" />
       </list>
     </recent_temporary>
@@ -331,14 +659,13 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49614397" visible="true" weight="0.3082606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49614397" visible="true" weight="0.26930827" />
       <window_info id="Structure" order="1" sideWeight="0.50385606" side_tool="true" weight="0.29281396" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32904884" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32904884" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -353,7 +680,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32975152" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -367,57 +694,151 @@
     <entry file="file://$PROJECT_DIR$/static_in_dev/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/product images/cq5dam.resized.img.585.low.time1522748559110.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/product images/BMW_XSeries_Overview-FMA_01_1600x733.jpg.bmwimg.xlarge.jpg" />
-    <entry file="file://$PROJECT_DIR$/config/settings.py">
+    <entry file="file://$PROJECT_DIR$/gigant/templates/category.css" />
+    <entry file="file://$PROJECT_DIR$/static_in_dev/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product images/foto for resume.jpg" />
+    <entry file="file://$PROJECT_DIR$/product_images/bmw.png" />
+    <entry file="file://$USER_HOME$/study/homework/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="82" selection-start-line="95" selection-start-column="82" selection-end-line="95" selection-end-column="82" />
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/study/homework/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/media/.png/.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gigant/templates/category.css" />
+    <entry file="file://$PROJECT_DIR$/config/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/hummer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigant/migrations/0002_mark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/touareg-01-render.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/vw-polo-suv-render.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/bmw2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/грузовые.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigant/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/alfa-romeo-stelvio-quadrifoglio.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigant/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigant/templates/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigant/templates/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/admin/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigant/templates/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/foto.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/foto711.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/foto609.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/foto811.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/range.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/car.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_images/foto817.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/gigant/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1554746207242" expanded="true" signature="949:1071" ph="..." />
+            <marker date="1557569755422" expanded="true" signature="1868:1869" ph="..." />
+            <marker date="1557569755422" expanded="true" signature="1868:1877" ph="..." />
+            <marker date="1557569755422" expanded="true" signature="2205:2206" ph="..." />
+            <marker date="1557569755422" expanded="true" signature="2205:2214" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gigant/views.py">
+    <entry file="file://$PROJECT_DIR$/gigant/templates/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1554746207206" expanded="true" signature="386:391" ph="..." />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_in_dev/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gigant/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -427,39 +848,57 @@
     <entry file="file://$PROJECT_DIR$/gigant/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/gigant/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gigant/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gigant/templates/category.html">
+    <entry file="file://$PROJECT_DIR$/config/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="465">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#631#672#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gigant/templates/product.html">
+    <entry file="file://$PROJECT_DIR$/gigant/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="540">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gigant/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

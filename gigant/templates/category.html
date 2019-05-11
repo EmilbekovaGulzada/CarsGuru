@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block content %}
+    <div class="col-sm-12">
+        <h2>{{ category.name }}</h2>
+        <hr>
+        {% for product in products_of_category %}
+            <div class="col-sm-4">
+                <img src="{{ product.image.urls }}" style="width:80%; height: 250px" ;>
+                <h4 class="text-center">{{ product.title }}</h4>
+                <p>Цена: {{ product.price }}</p>
+                <p class="text-center" style="font-size: 25px;"> Цена: <strong>{{ product.price }}</strong></p>
+                <a href="#" class="text-center">
+                    <buttom class="btn btn-danger">Добавить в корзину</buttom>
+
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock content %}
+
+

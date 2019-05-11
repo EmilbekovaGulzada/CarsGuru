@@ -1,9 +1,13 @@
-from django.conf.urls import url
+from django.urls import path
 from gigant.views import base_view, category_view, product_view
+# cart_view
 
 
 urlpatterns = [
-    url{'', category/(?P<category_slug>[-\w]=)$', category_view, name='category_detile'),
-    url{'',base_view, name='base'},
+    path('category/<slug:category_slug>/', category_view, name='category'),
+    path('product/<slug:product_slug>/', product_view, name='product_detail'),
+    # path('', cart_view, name='cart'),
+    path('',base_view, name='base'),
+
 
 ]
