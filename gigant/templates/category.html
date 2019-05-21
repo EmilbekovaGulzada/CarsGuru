@@ -1,22 +1,59 @@
+{#{% extends 'base.html' %}#}
+{##}
+{#{% block content %}#}
+{#    <div class="col-sm-12">#}
+{#        <h2>{{ category.name }}</h2>#}
+{#        <hr>#}
+{#        {% for product in products_of_category %}#}
+{#            <div class="col-sm-4">#}
+{#                <img src="{{ product.image.urls }}" style="width:80%; height: 250px" ;>#}
+{#                <h4 class="text-center">{{ product.title }}</h4>#}
+{#                <p>Цена: {{ product.price }}</p>#}
+{#                <p class="text-center" style="font-size: 25px;"> Цена: <strong>{{ product.price }}</strong></p>#}
+{#                <a href="#" class="text-center">#}
+{#                    <buttom class="btn btn-danger">Добавить в корзину</buttom>#}
+{##}
+{#            </div>#}
+{#        {% endfor %}#}
+{#    </div>#}
+{##}
+{#{% endblock content %}#}
+{##}
+{##}
 {% extends 'base.html' %}
-
+{% load static  %}
 {% block content %}
-    <div class="col-sm-12">
-        <h2>{{ category.name }}</h2>
-        <hr>
-        {% for product in products_of_category %}
-            <div class="col-sm-4">
-                <img src="{{ product.image.urls }}" style="width:80%; height: 250px" ;>
-                <h4 class="text-center">{{ product.title }}</h4>
-                <p>Цена: {{ product.price }}</p>
-                <p class="text-center" style="font-size: 25px;"> Цена: <strong>{{ product.price }}</strong></p>
-                <a href="#" class="text-center">
-                    <buttom class="btn btn-danger">Добавить в корзину</buttom>
+<br>
+{% if sub_categories %}
+    <h3>Sub Categories</h3>
+    {% for i in sub_categories %}
+        <a href="{{ i.slug }}"> {{ i.name }} </a>
+    {% endfor %}
+{% endif %}
 
-            </div>
-        {% endfor %}
+<div class="row small-up-1 medium-up-3" >
+{% if post_set %}
+{% for i in post_set %}
+    <div class="columns">
+        <div class=" card-article-hover card">
+          <a href="{{ i.slug }}">
+            <img  src="{{ i.cover_photo.url }}">
+          </a>
+          <div class="card-section">
+            <a href="{{ i.slug }}">
+              <h6 class="article-title">{{ i.title | truncatechars:30}}</h6>
+            </a>
+          </div>
+          <div class="card-divider flex-container align-middle">
+            <a href="" class="author">{{ i.user.get_full_name }}</a>
+          </div>
+          <div class="hover-border">
+          </div>
+        </div>
     </div>
-
-{% endblock content %}
+{% endfor %}
+{% endif %}
+</div>
+{% endblock %}
 
 

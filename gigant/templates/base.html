@@ -40,26 +40,33 @@
             </button>
             <a class="navbar-brand" href="#">Start Bootstrap</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                {% if not request.get_full_path == '/' %}
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">
-                            Категории <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            {% for category in categories %}
-                                <li><a href="{{ category.get_absolute_url }}">{{ category.name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                {% endif %}
-{#            </ul>#}
-{#            <ul class="nav navbar-nav navbar-right">#}
-{#                <li><a href="{% url 'cart' %}">Карзина</a></li>#}
-{#            </ul>#}
-{#        </div>#}
+        <div class="topnav">
+            <a class="active" href="#home">РЕГИСТРАЦИЯ</a>
+            <a class="active" href="#home">ГЛАВНОЕ</a>
+            <a href="C:\Users\PC\Desktop\auto_zone\O nas.html">O НАС</a>
+            <a href="parts.html">АВТО ЗАПЧАСТИ</a>
+            <a href="auto.html">АВТО МАШИНЫ</a>
+            <a href="C:\Users\PC\Desktop\auto_zone\NURDIN.HTML">КОНТАКТЫ</a>
+        </div>
+
+        <!-- Add font awesome icons -->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            {% if not request.get_full_path == '/' %}
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        Категории <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for category in categories %}
+                            <li><a href="{{ category.get_absolute_url }}">{{ category.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endif %}
+
     </div>
 </nav>
 
@@ -73,10 +80,13 @@
     {% block content %}
         <div class="row">
             <div class="col-md-3">
-                <p class="lead">Shop name</p>
+                <p class="lead"><strong>Cars Guru</strong></p>
                 <div class="list-group">
                     {% for category in categories %}
-                        <a href="{{ category.get_absolute_url }}" class="list-group-item">{{ category.name }}</a>
+{#                        {% url 'category' car_slug=car.slug category_slug=category.slug%}#}
+                        <a href="{{ category.get_absolute_url }}" class="list-group-item">
+                            <p>{{ category.children.first }}</p>
+                        </a>
                     {% endfor %}
                 </div>
             </div>
@@ -121,18 +131,17 @@
                     </div>
                     <br>
                     <div class="row">
-                        {% for product in products %}
+                        {% for car in cars %}
                             <div class="col-sm-4 col-lg-4 col-md-4">
                                 <div class="img-thumbnail">
                                     <img class="slide-image" src="">
                                     <div class="caption">
-                                        <img src="{{ product.image.url }}" width="240" height="240">
-                                        {#                            <img class="slide-image" src=""  alt = "img">#}
-                                        <h4 class="pull-right">{{ product.price }}som</h4>
-                                        <h5><strong><a href="{{ product.get_absolute_url }}">{{ product.title }}</a>
+                                        <img src="{{ car.image.url }}" width="240" height="240">
+                                        <h4 class="pull-right">{{ car.price }}som</h4>
+                                        <h5><strong><a href="{{ car.get_absolute_url }}">{{ car.title }}</a>
                                         </strong>
                                         </h5>
-                                        <p>{{ product.description }}</p>
+                                        <p>{{ car.description }}</p>
                                     </div>
                                 </div>
                             </div>
