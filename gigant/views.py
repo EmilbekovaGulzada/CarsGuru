@@ -7,35 +7,35 @@ from django.shortcuts import get_object_or_404
 from django.utils.encoding import force_text
 from django.contrib.auth import login
 from django.contrib.auth.models import User
+from django.views.generic import DetailView, ListView
 
 # Create your views here.
-from gigant.models import Category, Car, Post
+from gigant.models import Category, Car, Post, Product
 
 # from gigant.tokens import account_activation_token
 from gigant.forms import SignUpForm
+
 
 def base_view(request):
     categories = Category.objects.all()
     car = Car.objects.all()
 
-    return render(request, 'base.html', context = {
+    return render(request, 'base.html', context={
         'categories': categories,
         'cars': car,
+
     })
-
-
-
 
 
 def car_view(request, car_slug):
     car = Car.objects.get(slug=car_slug)
     categories = Category.objects.all()
     context = {
-        'cars': car,
+        'car': car,
         'categories': categories
 
     }
-    return  render(request, 'car.html', context)
+    return render(request, 'car.html', context)
 
 
 def category_view(request, category_slug):
@@ -48,31 +48,65 @@ def category_view(request, category_slug):
     }
     return render(request, 'category.html', context)
 
-# def cart_view(request):
-#     cart = Cart.objects.first()
-#     context = {
-#         'cart':cart
-#     }
-#     return render(request, 'cart.html', context)
+
+def product_view(request, product_slug):
+    product = Product.objects.get(slug=product_slug)
+    product_of_categoty = Car.objects.filter(product=product)
+    context = {
+        'product': product,
+        'product_of_category': product_of_category
+
+    }
+    return render(request, 'product.html', context)
 
 
 def show_category(request, car_slug, category_slug):
-
     category_slug = hierarchy.split('/')
     category_queryset = list(Category.objects.all())
-    all_slugs = [ x.slug for x in category_queryset ]
+    all_slugs = [x.slug for x in category_queryset]
     parent = None
     for slug in category_slug:
         if slug in all_slugs:
-            parent = get_object_or_404(Category,slug=slug,parent=parent)
+            parent = get_object_or_404(Category, slug=slug, parent=parent)
         else:
             instance = get_object_or_404(Post, slug=slug)
             breadcrumbs_link = instance.get_cat_list()
             category_name = [' '.join(i.split('/')[-1].split('-')) for i in breadcrumbs_link]
             breadcrumbs = zip(breadcrumbs_link, category_name)
-            return render(request, "postDetail.html", {'instance':instance,'breadcrumbs':breadcrumbs})
+            return render(request, "postDetail.html", {'instance': instance, 'breadcrumbs': breadcrumbs})
 
-    return render(request,"categories.html",{'post_set':parent.post_set.all(),'sub_categories':parent.children.all()})
+    return render(request, "category.html",
+                  {'post_set': parent.post_set.all(), 'sub_categories': parent.children.all()})
+
+
+class CategoryView(ListView):
+    template_name = 'product_list.html'
+    model = Product
+
+    def dispatch(self, request, *args, **kwargs):
+        self.car = get_object_or_404(Car, slug=kwargs.get('slug'))
+        if kwargs.get('category_slug'):
+            self.category = get_object_or_404(Category, slug=kwargs.get('category_slug'))
+
+        return super().dispatch(request, *args, **kwargs)
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        queryset = queryset.filter(car=self.car)
+        if self.category:
+            queryset = queryset.filter(category=self.category)
+        return queryset
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(object_list, **kwargs)
+        context['car'] = self.car
+        context['current_category'] = self.category
+        return context
+
+    # def get(self, request, slug):
+    #     obj = get_object_or_404(self.model, slug=slug)
+    #
+    #     return render(request, 'product.html', {'object': obj})
 
 
 def signup(request):
@@ -97,7 +131,6 @@ def signup(request):
     return render(request, 'signup.html', {'form': form})
 
 
-
 def activate(request, uidb64, token):
     try:
         uid = force_text(urlsafe_base64_decode(uidb64))
@@ -113,3 +146,4 @@ def activate(request, uidb64, token):
         return redirect('home')
     else:
         return render(request, 'account_activation_invalid.html')
+

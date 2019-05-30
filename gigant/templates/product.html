@@ -1,0 +1,34 @@
+{% extends 'category.html' %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="list-group">
+                    {% for category in categories %}
+                        {% url 'category' car_slug=car.slug category_slug=category.slug %}
+                        <a href="{{ category.get_absolute_url }}" class="list-group-item">
+                            <p>{{ category.children.first }}</p>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+            </div>
+            <div class="col-9">
+                <img src="{{ car.image.url }}" style="width:50%; height: 150px">
+                <h3 class="text-center">{{ car.title }}</h3>
+                <p>{% lorem %}</p>
+                <p>{% lorem %}</p>
+                <hr>
+                <a href="#">
+                    <buttom class="btn btn-danger">Добавить в корзину</buttom>
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+
+
+
+
+

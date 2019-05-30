@@ -66,7 +66,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tinymce',
     'gigant',
+    
 ]
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -158,3 +161,27 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS=(
     os.path.join(BASE_DIR, 'static_in_dev'),
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
