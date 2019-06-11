@@ -1,33 +1,36 @@
-{% extends 'category.html' %}
+{% extends 'base.html' %}
 {% block content %}
     <div class="container">
+        <div class="row mb-3">
+            <div class="col">
+                <h3 class="text-center">{{ product.title }}</h3>
+            </div>
+            <h3><em>Это то что вы искали? Так закажите его у Нас</em></h3>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6">
+                <img src="{{ product.image.url }}" class="img-fluid">
+            </div>
+            <div class="col">
+
+
+                <h1 class="text-center">{{ product.price }}som</h1>
+                 <form method="post" action="">
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    {% csrf_token %}
+                </form>
+            </div>
+
+        </div>
         <div class="row">
-            <div class="col-3">
-                <div class="list-group">
-                    {% for category in categories %}
-                        {% url 'category' car_slug=car.slug category_slug=category.slug %}
-                        <a href="{{ category.get_absolute_url }}" class="list-group-item">
-                            <p>{{ category.children.first }}</p>
-                        </a>
-                    {% endfor %}
-                </div>
-            </div>
-            </div>
-            <div class="col-9">
-                <img src="{{ car.image.url }}" style="width:50%; height: 150px">
-                <h3 class="text-center">{{ car.title }}</h3>
-                <p>{% lorem %}</p>
-                <p>{% lorem %}</p>
-                <hr>
-                <a href="#">
-                    <buttom class="btn btn-danger">Добавить в корзину</buttom>
-                </a>
+            <div class="col">
+                <p>{{ product.description }}</p>
             </div>
         </div>
     </div>
+
 {% endblock content %}
-
-
 
 
 

@@ -27,32 +27,20 @@
         <div class="col-md-3">
             <p class="lead"><strong>Cars Guru</strong></p>
             <div class="list-group">
-                {% for category in categories %}
-                    {% url 'category' car_slug=car.slug category_slug=category.slug %}
-                    <a href="{{ category.get_absolute_url }}" class="list-group-item">
-                        <p>{{ category.parent.first }}</p>
-                    </a>
+                {% for category in objects %}
+                    <div>
+                        <div><a href="{{ object.get_absolute_url }}">{{ object.title }}</a></div>
+                        <div>
+                            {% for sub in category.children.all %}
+                                <div><a href="{{ sub.get_absolute_url }}">{{ sub.title }}</a></div>
+                            {% endfor %}
+
+                        </div>
+                    </div>
                 {% endfor %}
             </div>
         </div>
     </div>
-
-
-
-{% for category in object %}
-    <div>
-        <div><a href="{{ object.get_absolute_url }}">{{ object.title }}</a></div>
-        <div>
-            {% for sub in category.children.all %}
-                <div><a href="{{ sub.get_absolute_url }}">{{ sub.title }}</a></div>
-            {% endfor %}
-
-        </div>
-    </div>
-    {% endfor %}
-
-
-
     <div class="row small-up-1 medium-up-3">
         {% if post_set %}
             {% for i in post_set %}
@@ -77,28 +65,6 @@
             {% endfor %}
         {% endif %}
     </div>
-
-
-{% for category in categories %}
-    <div>
-        <div><a href="{{ category.get_absolute_url }}">{{ category.title }}</a></div>
-        <div>
-            {% for sub in category.children.all %}
-                <div><a href="{{ sub.get_absolute_url }}">{{ sub.title }}</a></div>
-            {% endfor %}
-
-        </div>
-    </div>
-{% endfor %}
-
-
-
-
-
-
-
-
-
 {% endblock content %}
 
 

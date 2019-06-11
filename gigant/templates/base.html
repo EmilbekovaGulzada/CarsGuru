@@ -10,24 +10,46 @@
 
     <title>Shop Homepage - Start Bootstrap Template</title>
 
-    <!-- Bootstrap Core CSS -->
+
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">    <!-- Bootstrap Core CSS -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{% static 'css/shop-homepage.css' %}" rel="stylesheet">
+    <link href="{% static 'css/blog.css' %}" rel="stylesheet">
+
+
+
+    <title>Django Girls blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+
     <![endif]-->
 </head>
 <body>
+<div class="alert alert-primary" role="alert">
 <!-- Navigation -->
 <nav class="navbar navbar-inverse" role="navigation">
     <div class="container">
+         <div class="page-header">
+             <h1><p class="font-italic"><a href="/">Cars Guru</a></p></h1>
+
+        </div>
+
+    </div>
+
         <!-- Brand and toggle get grouped for better mobile display -->
+{#        <div class="page-header">#}
+{#            <h1><a href="/">Cars Guru</a></h1>#}
+{#        </div>#}
+
+
+
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
@@ -36,40 +58,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">CARSGURU</a>
+
         </div>
         <div class="topnav">
-            <a class="active" href="#home">РЕГИСТРАЦИЯ</a>
             <a class="active" href="#home">ГЛАВНОЕ</a>
-            <a href="C:\Users\PC\Desktop\auto_zone\O nas.html">O НАС</a>
-            <a href="parts.html">АВТО ЗАПЧАСТИ</a>
-            <a href="auto.html">АВТО МАШИНЫ</a>
-            <a href="C:\Users\PC\Desktop\auto_zone\NURDIN.HTML">КОНТАКТЫ</a>
+            <a href="{% url 'about' %}">O НАС</a>
+            <a href="{% url 'contacts' %}">КОНТАКТЫ</a>
         </div>
 
         <!-- Add font awesome icons -->
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-            {% if not request.get_full_path == '/' %}
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">
-                        Категории <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        {% for categories in category %}
-                            <li><a href="{{ category.get_absolute_url }}">{{ category.name }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
-            {% endif %}
-
-        </ul>
-    </div>
-
-    </div>
 </nav>
+</div>
+
+
 
 </div>
 <!-- /. navbar-collapse -->
@@ -79,63 +80,43 @@
 <!-- Page Content -->
 <div class="container">
     {% block content %}
-        Автозапчасти
-        {#                        <div class="row">#}
-        {#                            <div class="col-md-3">#}
-        {#                                <p class="lead"><strong>Cars Guru</strong></p>#}
-        {#                                <div class="list-group">#}
-        {#                                    {% for category in categories %}#}
-        {#                                        {% url 'category' car_slug=car.slug category_slug=category.slug%}#}
-        {#                                        <a href="{{ category.get_absolute_url }}" class="list-group-item">#}
-        {#                                            <p>{{ category.children.first }}</p>#}
-        {#                                        </a>#}
-        {#                                    {% endfor %}#}
-        {#                                </div>#}
-        {#                            </div>#}
-        {#                        </div>#}
+        <div class="row mb-3">
+            <div class="col">
 
 
-        <div class="col-sm-9">
-
-            <div class="row carousel-holder">
-
-                <div class="col-sm-12">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://cdn1.carbuyer.co.uk/sites/carbuyer_d7/files/styles/gallery_adv/public/2017/12/alfa-romeo-stelvio-quadrifoglio.jpg?itok=IXk4iuL2s"
-                                     class="d-block w-100" width="600" height=400" alt="ferst">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://cdn2.carbuyer.co.uk/sites/carbuyer_d7/files/2017/12/lamborghini-urus-8_1.jpg"
-                                     class="d-block w-100" width="600" height="400" alt="second">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://article.images.consumerreports.org/prod/content/dam/CRO%20Images%202019/Magazine/04April/CR-Cars-InlineHero-TopTen-BMW-X5-2-18v3"
-                                     class="d-block w-100" width="600" height="400" alt="third">
-                            </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn1.carbuyer.co.uk/sites/carbuyer_d7/files/styles/gallery_adv/public/2017/12/alfa-romeo-stelvio-quadrifoglio.jpg?itok=IXk4iuL2s"
+                                 class="d-block w-100" width="500" height=400" alt="ferst">
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                           data-slide="prev">
-                            <span class="carousel-http://placehold.it/800x300control-prev-icon"
-                                  aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                           data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="carousel-item">
+                            <img src="https://cdn2.carbuyer.co.uk/sites/carbuyer_d7/files/2017/12/lamborghini-urus-8_1.jpg"
+                                 class="d-block w-100" width="400" height="300" alt="second">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://auto.ndtvimg.com/car-images/big/ferrari/portofino/ferrari-portofino.jpg?v=27"
+                                 class="d-block w-100" width="500" height="400" alt="third">
+                        </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                       data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                       data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <br>
+
             </div>
-        </div>
         </div>
         <div class="row">
             <div class="card-group">
@@ -143,7 +124,7 @@
                     <div class="col-4 mb-5">
                         <div class="card">
                             <img src="{{ car.image.url }}" class="card-img-top" alt="..."
-                                 style='width:100%; height: 350px;'>
+                                 style='width:85%; height: 280px;'>
                             <div class="card-body">
                                 <h5 class="card-title"><a href="{{ car.get_absolute_url }}">{{ car.title }}</a></h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to
@@ -161,13 +142,8 @@
                 {% endfor %}
             </div>
         </div>
-
-        </div>
-
-        </div>
-        </div>
-        </div>
     {% endblock %}
+</div>
 <!-- /.container -->
 <div class="container">
     <hr>
@@ -181,5 +157,6 @@
     </footer>
 </div>
 </div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -5,22 +5,36 @@
             <div class="col-3">
                 <div class="list-group">
                     {% for category in categories %}
-                        {% url 'category' car_slug=car.slug category_slug=category.slug%}
-                        <a href="{{ category.get_absolute_url }}" class="list-group-item">
-                            <p>{{ category.children.first }}</p>
-                        </a>
+                        <div>
+                            <div>
+                                <a href="{% url 'category' slug=car.slug category_slug=category.slug %}">{{ category.title }}</a>
+                            </div>
+                            <div style="padding-left: 20px;">
+                                {% for sub in category.children.all %}
+                                    <div>
+                                        <a href="{% url 'category' slug=car.slug category_slug=sub.slug %}">{{ sub.title }}</a>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
                     {% endfor %}
                 </div>
             </div>
             <div class="col-9">
-                <img src="{{ car.image.url }}" style="width:80%; height: 350px">
-                <h3 class="text-center">{{ car.title }}</h3>
-                <p>{% lorem %}</p>
-                <p>{% lorem %}</p>
-                <hr>
-                <a href="#">
-                    <buttom class="btn btn-danger">Добавить в корзину</buttom>
-                </a>
+                {% for object in object_list %}
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="{{ object.image.url }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <h4><a href="{{ object.get_absolute_url }}">{{ object.title }}</a></h4>
+                            <h3><div>{{ object.description }}</div></h3>
+                        </div>
+                        <div class="col-2">
+                            {{ object.price }}
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>
